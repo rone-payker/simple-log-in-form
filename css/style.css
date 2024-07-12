@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-family: monospace;
+    background: url("../image/img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, h6{
+     font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.log-in-form{
+    height: 450px;
+    width: 400px;
+    margin: 50px auto;
+    background: #4B0082;
+    opacity: 0.70;
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
+}
+.log-in-form .title{
+    padding: 20px 0px;
+}
+.log-in-form .title h1{
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FAFAFA;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid #FAFAFA;
+}
+.log-in-form .form-group{
+    width: 80%;
+    margin: 15px 40px;
+}
+.log-in-form .form-group label{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #FAFAFA;
+    text-transform: capitalize;
+    display: block;
+    margin: 10px 0px 1px;
+}
+.log-in-form .form-group .form-control{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #FAFAFA;
+    background: #4B0082;
+    text-transform: capitalize;
+    width: 80%;
+    padding: 10px 30px;
+    border: 2px solid #FAFAFA;
+    border-radius: 30px;  
+}
+.log-in-form .form-group .cheek-box{
+    width: 100%;
+    margin-left: 10px;
+}
+.log-in-form .form-group .cheek-box .chek-ox-lebel{
+    font-size: 18px;
+    line-height: 1.2em;
+    display: inline-block;
+    font-weight: 500;
+    color: #FAFAFA;
+    margin-left: 6px;
+}
+.button{
+    width: 99%;
+    text-align: center;
+    margin-top: 50px;
+}
+.button .btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #FAFAFA;
+    background: #FF7F50;
+    padding: 10px 125px 10px 125px;
+    border: 2px solid #FAFAFA;
+    border-radius: 30px;
+    transition: 1s;
+}
+.button .btn-primary:hover{
+    color: #FAFAFA;
+    background: transparent;
+    border: 2px solid #FAFAFA;
+}
+.button p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #FAFAFA;
+    margin-top: 30px;
+
+}
